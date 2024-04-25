@@ -1,0 +1,8 @@
+input/*
+outputs/*
+wandb/*
+protos/*
+wheels/*
+*.pyc*
+*.ipynb_checkpoints
+*.json
