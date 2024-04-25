@@ -23,7 +23,7 @@ docker run -it --detach --gpus all --shm-size 64G -v .:/kaggle --name pii-kaggle
 ## Training
 Run the following command to perform full-fit training:
 ```
-python src/train.py exp019 --full-fit
+python src/train.py exp019 --full_fit
 ```
 The final ensemble consists of `exp019`, `exp021`, `exp034`, `exp037`, `exp038`.
 
