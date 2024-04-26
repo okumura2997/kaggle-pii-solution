@@ -25,7 +25,7 @@ Run the following command to perform full-fit training:
 ```
 python src/train.py exp019 --full_fit
 ```
-The final ensemble consists of `exp019`, `exp021`, `exp034`, `exp037`, `exp038`.
+The final ensemble consists of `exp019`, `exp021`, `exp034`, `exp037`, and `exp038`.
 
 ## Inference
 For inference, please refer to [submission code on kaggle](https://www.kaggle.com/code/yukiokumura1/pii-019-021-034-037-038-pp)
