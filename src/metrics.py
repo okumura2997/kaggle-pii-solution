@@ -180,7 +180,7 @@ def compute_metrics(outputs, valid_df, config, label2id, id2label):
     for o_threshold in config.o_thresholds:
         pred_df_i = pred_df.copy()
         pred_df_i['pred_label'] = pred_df_i['spacy_token_preds'].map(
-            lambda x: id2label[postprocess_preds(x, label2id=label2id, o_threshold=o_threshold)]
+            lambda x: id2label[postprocess_preds(x, label2id=label2id, id2label=id2label, o_thr=o_threshold)]
         )
 
         # fix up dataframe
